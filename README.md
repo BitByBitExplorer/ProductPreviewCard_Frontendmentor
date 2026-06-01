@@ -51,7 +51,7 @@ As I'm still new to HTML/CSS, I always start with what I already know (to test m
 
 ### What I learned
 
-During this project I learned more about responsive web-design. For the first time I used the clamp() function, the object-fit property, the <picture> element, with two <img> elements - for the mobile version and desktop version and I used an Icon (Shopping Cart) in the Add to Cart button. Also I created some variables and a @media query.
+During this project I learned more about responsive web-design. For the first time I used the clamp() function, the object-fit property, the picture element, with two img elements - for the mobile version and desktop version and I used an Icon (Shopping Cart) in the Add to Cart button. Also I created some variables and a @media query.
 
 ### Continued development
 
