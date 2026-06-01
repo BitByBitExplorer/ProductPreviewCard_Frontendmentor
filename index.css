@@ -19,10 +19,11 @@ html {
     --grey: hsl(228, 12%, 48%);
     --cream: hsl(30, 38%, 92%);
     --white: hsl(0, 0%, 100%);
+    --attribution-link: hsl(228, 45%, 44%);
 }
 
 body {
-    min-width: 250px;
+    min-width: 15.625rem;
     max-width: 100dvw;
     min-height: 100dvh;
     background: var(--cream);
@@ -42,7 +43,7 @@ main {
 }
 
 .product-container {
-    width: clamp(250px, 80%, 35rem);
+    width: clamp(15.625rem, 80%, 35rem);
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
@@ -75,7 +76,7 @@ h1 {
 .product-name{
     font-size: 0.6rem;
     letter-spacing: 0.4rem;
-    margin-top: 2rem;
+    margin-block-start: 2rem;
 }
 
 .price {
@@ -119,10 +120,10 @@ button:hover {
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--attribution-link); 
 }
  
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 34.375rem) {
 
     .product-container {
         flex-direction: row;
